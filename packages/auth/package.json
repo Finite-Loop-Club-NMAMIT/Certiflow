@@ -1,0 +1,24 @@
+{
+  "name": "@Certiflow/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@Certiflow/db": "workspace:*",
+    "@Certiflow/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@Certiflow/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

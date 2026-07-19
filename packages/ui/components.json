@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-lyra",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@Certiflow/ui/components",
+    "utils": "@Certiflow/ui/lib/utils",
+    "hooks": "@Certiflow/ui/hooks",
+    "lib": "@Certiflow/ui/lib",
+    "ui": "@Certiflow/ui/components"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}
